@@ -1,7 +1,7 @@
 # LeagueConvert
 
 Effortlessly convert League of Legends models to glTF, with textures and
-animations.
+animations. 
 
 ## Installation instructions
 
