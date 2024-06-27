@@ -18,14 +18,14 @@ internal static class Program
 
     private static async Task<int> Main(string[] args)
     {
-        try
-        {
-            await CheckForUpdates();
-        }
-        catch (Exception e)
-        {
-            Logger.Error(e, "An error occurred while checking for updates");
-        }
+        // try
+        // {
+        //     await CheckForUpdates();
+        // }
+        // catch (Exception e)
+        // {
+        //     Logger.Error(e, "An error occurred while checking for updates");
+        // }
 
         var rootCommand = new RootCommand
         {
